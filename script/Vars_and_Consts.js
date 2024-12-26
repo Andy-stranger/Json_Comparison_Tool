@@ -1,0 +1,14 @@
+const headRowContents = ['Key ', 'Value', ''];
+var documentOneArray = [];
+var documentTwoArray = [];
+var currentRow;
+var currentTable;
+var lastSavedArrayOne = [];
+var lastSavedArrayTwo = [];
+var currentArrayOne = [];
+var currentArrayTwo = [];
+var undoStackOne = [];
+var redoStackOne = [];
+var undoStackTwo = [];
+var redoStackTwo = [];
+var compareFlag = false;

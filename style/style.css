@@ -1,0 +1,509 @@
+body{
+    background-color: rgb(34, 34, 102);
+}
+.commonIconContainer {
+    position: relative;
+    height: 2.5rem;
+    width: 79.02rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(212, 222, 255);
+}
+.parentContainer {
+    position: absolute;
+    width: 79.2rem;
+    height: 34rem;
+}
+.fileOneOutterContainer {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+.fileTwoOutterContainer{
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    left: 2.2%;
+}
+.fileOneContainer{
+    position: absolute;
+    width: 38.82rem;
+    height: 32.3rem;
+    top: 2.36em;
+    left: 0.1rem;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgb(212, 222, 255);
+}
+.fileOneContainer::-webkit-scrollbar { 
+    display: none;
+}
+.fileTwoContainer{
+    position: absolute;
+    width: 40.1rem;
+    height: 32.3rem;
+    top: 2.37rem;
+    right: 0.25rem;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgb(212, 222, 255);
+}
+.fileTwoContainer::-webkit-scrollbar { 
+    display: none;
+}
+.fileOneIconContainer{
+    position: absolute;
+    text-align: center;
+    height: 2.2rem;
+    background-color: rgb(212, 222, 255);
+    width: 38.83rem;
+    left: 0.1rem;
+    top: 0.1rem;
+}
+.fileTwoIconContainer{
+    position: absolute;
+    text-align: center;
+    height: 2.2em;
+    width: 40.1rem;
+    background-color: rgb(212, 222, 255);
+    top: 0.1rem;
+    right: 0.25rem;
+}
+.fileOneNameContainer{
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    height: 1.3em;
+    margin: 0.2em;
+    left: 73%;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(58, 58, 58);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgb(212, 222, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fileOneNameContainer::-webkit-scrollbar { 
+    display: none;
+}
+.fileTwoNameContainer{
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    height: 1.3em;
+    margin: 0.2em;
+    left: 73%;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(58, 58, 58);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgb(212, 222, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fileTwoNameContainer::-webkit-scrollbar { 
+    display: none;
+}
+.formContainer{
+    display: none;
+}
+.individualIcons{
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 1.5em;
+    margin-top: 0px;
+    color: rgb(34, 34, 102);
+    transform: scale(1.3);
+}
+.individualIcons:hover{
+    /* color: #638898; */
+    color: rgb(122, 153, 247);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.undoIconOne, .undoIconTwo, .redoIconOne, .redoIconTwo{
+    font-size: 17px !important;
+    margin-top: 0em;
+}
+.ctcOne, .ctcTwo{
+    font-size: 15px !important;
+}
+.clearFileOne, .clearFileTwo{
+    transform: scale(0.9);
+    padding-bottom: 101px;
+}
+.clearFileOne:hover, .clearFileTwo:hover{
+    color: rgb(122, 153, 247); 
+    transform: scale(1); 
+    padding-bottom: 101px; 
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    color: rgb(58, 58, 58);
+    /* margin-top: 0.5em;
+    margin-bottom: 0.5em; */
+    border-collapse: collapse;
+    background-color: rgb(212, 222, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* z-index: -1; */
+}
+table, tr, td, th{
+    border: 1px solid rgb(58, 58, 58);
+}
+th.column1{
+    width: 15%;
+}
+th.column2{
+    width: 70%;
+}
+th.column3{
+    width: 15%;
+    text-align: center;
+}
+.tableIcons{
+    transform: scale(0.8);
+}
+.tableIcons:hover{
+    transform: scale(1);
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+.modified{
+    background-color: rgb(254, 254, 148);
+}
+.deleted{
+    background-color: rgb(255, 143, 143);
+}
+.default{
+    background-color: rgb(212, 222, 255);
+}
+.iconCell{
+    text-align: center;
+}
+.commonIcons{
+    position: relative;
+    margin-right: 0.6em;
+    transform: scale(1);
+    margin-top: 4px;
+    display: block;
+    color: rgb(34, 34, 102);
+    top: 8%;
+}
+.commonIcons:hover{
+    transform: scale(1.2);
+    /* color: #638898; */
+    color: rgb(122, 153, 247);
+    cursor: pointer;
+}
+.divDropdownListOne, .divDropdownListTwo{
+    display: inline-block;
+}
+/* .fa-arrow-circle-left{
+    left: 11.2%;
+} */
+/* .fa-arrow-circle-right{
+    left: 10%;
+    margin-top: 22%;
+} */
+.fa-arrow-circle-right, .fa-arrow-circle-left{
+    top: -0.2em;
+    transform: scale(1.3);
+}
+/* .compare{
+    left: 13%;
+}
+.equalizer{
+    left: 14%;
+} */
+.fa-arrow-circle-right:hover, .fa-arrow-circle-left:hover{
+    transform: scale(1.7);
+}
+.fa-arrow-circle-left{
+    margin-right: 0.9em;
+}
+.alertBox{
+    position: relative;
+    /* position: fixed; */
+    border: 1px solid rgb(123, 34, 34);
+    z-index: 3;
+    height: fit-content;
+    background-color: #1f235c;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 12em;
+    max-width: 20em;
+    color: #c90000;
+    /* margin-top: -40%;  */
+    text-align: center;
+}
+.cancelButton, .proceedBtn{
+    align-self: center;
+    display: inline-block;
+    margin-right: 1em;
+    color: white;
+}
+.cancelButton:hover{
+    color: rgb(169, 255, 169);
+    cursor: pointer;
+}
+.proceedBtn:hover{
+    color: rgb(255, 166, 166);
+    cursor: pointer;
+}
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+.edit-modal{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    /* top: 0; */
+    bottom: 40%;
+    background-color: #6a6a6a;
+    overflow: auto;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.modalContent{
+    position: fixed;
+    right: 0;
+    width: 30%;
+    height: 40%;
+    background-color: rgb(79, 79, 162);
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 1s;
+    animation-name: slideIn;
+    animation-duration: 1s
+}
+
+.updateBtn{
+    border: none;
+    background-color: rgb(79, 79, 162);
+    display: inline-block;
+}
+
+.saveIcon{
+    color: white;
+    transform: scale(1.5);
+}
+
+.saveIcon:hover{
+    cursor: pointer;
+    color: rgb(133, 133, 133);
+}
+
+.dataAddIcon{
+    color: white;
+    margin-top: -1.5em;
+    margin-left: -0.8em;
+}
+
+.dataAddIcon:hover{
+    cursor: pointer;
+    color: rgb(133, 133, 133);
+}
+
+.modalBody{
+    padding: 1em;
+}
+
+.modalHeader{
+    position: relative;
+    color: white;
+    background-color: #7d0000;
+    top: -3.3%;
+}
+
+.close{
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes slideIn{
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
+}
+@-webkit-keyframes slideIn{
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
+}
+
+@keyframes fadeIn{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@-webkit-keyframes fadeIn{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.modalOne, .modalTwo{
+    display: none; 
+    /* position: fixed; Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeInForFilter; /* Fade in the background */
+    -webkit-animation-duration: 1s;
+    animation-name: fadeInForFilter;
+    animation-duration: 1s;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.modalContentOne, .modalContentTwo{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(179, 173, 255);
+    width: 100%;
+    height: 60px;
+    -webkit-animation-name: slideInForFilter;
+    -webkit-animation-duration: 1s;
+    animation-name: slideInForFilter;
+    animation-duration: 1s
+}
+
+.dropdownChildDivOne, .dropdownChildDivTwo{
+    display: none;
+}
+  
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(105, 104, 104);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 6px;
+    height: 30px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    font-size: 25px;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideInForFilter {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideInForFilter {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeInForFilter {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeInForFilter {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+.labels{
+    color: white;
+}
+
+.divDropdownListOne, .divDropdownListTwo {
+    display: inline-block;
+}
+
+.divDropdownListOne.filterIconOne, .divDropdownListTwo.filterIconTwo {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.divDropdownListOne.filterIconOne:after, .divDropdownListTwo.filterIconTwo:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.divDropdownListOne.filterIconOne:active:after, .divDropdownListTwo.filterIconTwo:active:after {
+    right: 8px;
+    top: 21%;
+}
+
+.divDropdownListOne ul.filterListOne, .divDropdownListTwo ul.filterListTwo {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.divDropdownListOne ul.filterListOne li, .divDropdownListTwo ul.filterListTwo li {
+    list-style: none;
+}
+
+.divDropdownListOne.visible.filterIconOne, .divDropdownListTwo.visible.filterIconTwo {
+    color: #0094ff;
+}
+
+.divDropdownListOne.visible.filterListOne, .divDropdownListTwo.visible.filterListTwo {
+    display: block;
+}
